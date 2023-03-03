@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-color: rgb(71, 63, 63);
+}
+.head-1{
+    position: fixed;
+}
+
+header{
+    height: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+a:hover{
+    color: red;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.fa-solid{
+    padding-left: 250px;
+}
+.fa-regular{
+    padding-left: 30px;
+}
+.fa-regular:hover{
+    color: red;
+}
+.fa-solid:hover{
+    color: red;
+}
+.header-link{
+    position: absolute;
+    left: 300px;
+    top: 40px;
+}
+.logo-1{
+    width: 150px;
+    height: 100px;
+    padding-left: 50px;
+}
+
+/* .trailer-box{
+    height: 600px;
+    background-color: beige;
+} */
+.video-left{
+    width: 640px;
+    height: 360px;
+    float: left;
+    margin-left: 20px;
+    /* background-color: aqua; */
+}
+.box-icon{
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+}
+.box{
+    width: 150px;
+    height: 200px;
+    background-color: aliceblue;
+    /* border: 15px red solid; */
+    position: absolute;
+    top: 10px;
+    left: 5px;
+   
+}
+.box-1{
+    left: 5px;
+    background-color: aqua;
+
+}
+.box-1:hover{
+    transition: 1s;
+    transform: scale(1.25);
+}
+.box-2{
+    left: 160px;
+    background-color: brown;
+}
+.box-2:hover{
+    transition: 2s;
+    transform: scale(1.25);
+}
+.box-3{
+    left: 315px;
+    background-color: blueviolet;
+}
+.box-3:hover{
+    transition: 2s;
+    transform: scale(1.25);
+}
+.box-4{
+    left: 470px;
+    background-color: chartreuse;
+}
+.box-4:hover{
+    transition: 2s;
+    transform: scale(1.25);
+}
+.box-5{
+    left: 625px;
+    background-color: rgb(115, 0, 255);
+}
+.box-5:hover{
+    transition: 2s;
+    transform: scale(1.25);
+}
+.image-row1{
+    width: 150px;
+    height: 200px;
+}
