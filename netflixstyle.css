@@ -1,5 +1,5 @@
 body{
-    margin: 10px;
+    margin: 15px;
     background-color: rgb(0, 0, 0);
 }
 .head-1{
@@ -14,7 +14,7 @@ header{
 
 }
 a:hover{
-    color: red;
+    text-decoration: underline;
 }
 a{
     color: white;
@@ -28,10 +28,10 @@ a{
     padding-left: 30px;
 }
 .fa-regular:hover{
-    color: red;
+    text-decoration: underline;
 }
 .fa-solid:hover{
-    color: red;
+    text-decoration: underline;
 }
 .header-link{
     position: absolute;
@@ -57,13 +57,6 @@ a{
     /* background-color: aqua; */
 }
 
-.box-icon{
-    display: flex;
-    position: relative;
-    margin-right: 10px;
-    margin-top: 25px;
-    
-}
 .box{
     width: 150px;
     height: 200px;
@@ -163,18 +156,190 @@ a{
 .box-icon2{
     display: flex;
     position: absolute;
-    margin-right: 10px;
-    top: 500px;
+    margin-left: 15px;
+    top: 530px;
     align-content: space-between;
 }
-.see-more{
-    height: 200px;
-    width: 25px;
-}
+
 .heading-2{
     
     color: white;
     position: absolute;
-    top: 460px;
+    top: 480px;
+    left: 10px;
 
+}
+.trending-box{
+    width: 150px;
+    height: 200px;
+    background-color: aliceblue;
+    /* border: 15px red solid; */
+    position: absolute;
+    top: 10px;
+    left: 15px;
+   
+}
+
+.trending{
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 290px;
+    align-content: space-between;
+    
+}
+
+.trending-box-1{
+    left: 5px;
+    background-color: aqua;
+
+}
+.trending-box-1:hover{
+    transition: 1s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+.trending-box-2{
+    left: 160px;
+    background-color: brown;
+}
+.trending-box-2:hover{
+    transition: 2s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+.trending-box-3{
+    left: 315px;
+    background-color: blueviolet;
+}
+.trending-box-3:hover{
+    transition: 2s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+.trending-box-4{
+    left: 470px;
+    background-color: chartreuse;
+}
+.trending-box-4:hover{
+    transition: 2s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+.trending-box-5{
+    left: 625px;
+    background-color: rgb(115, 0, 255);
+}
+.trending-box-5:hover{
+    transition: 2s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+.trending-box-6{
+    left: 780px;
+    background-color: rgb(115, 0, 255);
+}
+.trending-box-6:hover{
+    transition: 2s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+.trending-box-7{
+    left: 935px;
+    background-color: rgb(115, 0, 255);
+}
+.trending-box-7:hover{
+    transition: 2s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+.trending-box-8{
+    left: 1090px;
+    background-color: rgb(115, 0, 255);
+}
+.trending-box-8:hover{
+    transition: 2s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+.trending-box-9{
+    left: 1245px;
+    background-color: rgb(115, 0, 255);
+}
+.trending-box-9:hover{
+    transition: 2s;
+    transform: scale(1.25);
+    z-index: 1;
+}
+.trending-h2{
+    position: absolute;
+    top: 730px;
+    color: white;
+}
+
+.int-tv-h2{
+    color: white;
+    position: absolute;
+    margin-top: 220px;
+}
+.itv-img{
+    width: 150px;
+    height: 200px;
+}
+
+.int-tv{
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 245px;
+    align-content: space-between;
+}
+.hindi-mv-h2{
+    color: white;
+    position: absolute;
+    margin-top: 220px;
+}
+.hindi-img{
+    width: 150px;
+    height: 200px;
+}
+.hindi-mv{
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 245px;
+    align-content: space-between;
+}
+.new-realese-h2{
+    color: white;
+    position: absolute;
+    margin-top: 220px;
+}
+.nr-img{
+    width: 150px;
+    height: 200px;
+}
+.new-realese{
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 245px;
+    align-content: space-between;
+}
+.action-h2{
+    color: white;
+    position: absolute;
+    margin-top: 220px;
+}
+
+.action{
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 245px;
+    align-content: space-between;
+}
+.action-img{
+    width: 150px;
+    height: 200px;
 }
